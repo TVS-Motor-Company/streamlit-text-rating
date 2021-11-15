@@ -13,5 +13,5 @@ cd ../../
 echo $PWD
 python setup.py sdist bdist_wheel
 twine check dist/*
-twine upload --repository testpypi dist/*
-twine upload --repository pypi dist/*
+#twine upload --repository testpypi dist/*
+#twine upload --repository pypi dist/*
