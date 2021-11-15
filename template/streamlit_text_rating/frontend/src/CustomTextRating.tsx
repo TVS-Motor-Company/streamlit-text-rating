@@ -16,7 +16,7 @@ interface State {
  hasClickedDislike: boolean,
 }
 
-class streamlit_text_like extends StreamlitComponentBase<State> {
+class streamlit_text_rating extends StreamlitComponentBase<State> {
   public state = {hasClickedLike: false,hasClickedDislike: false}
 
   public render = (): React.ReactNode => {
@@ -87,4 +87,4 @@ class streamlit_text_like extends StreamlitComponentBase<State> {
 
 }
 
-export default withStreamlitConnection(streamlit_text_like)
+export default withStreamlitConnection(streamlit_text_rating)

@@ -2,7 +2,7 @@ import os
 import streamlit.components.v1 as components
 import streamlit as st
 
-_RELEASE = True
+_RELEASE = False
 
 if not _RELEASE:
     _component_func = components.declare_component(
@@ -13,7 +13,7 @@ else:
     _component_func = components.declare_component(
         "streamlit_text_rating", path=build_dir)
 
-def streamlit_text_like(text, color_text='rgb(0,0,0)', color_background='rgb(255, 255, 255)',
+def streamlit_text_rating(text, color_text='rgb(0,0,0)', color_background='rgb(255, 255, 255)',
                         font_size='16px', font_family='sans-serif', font_weight=350, key=None, default=0):
     r = _component_func(text=text, color_text=color_text, font_size=font_size, font_family=font_family,
                         color_background=color_background, font_weight=font_weight, key=key)

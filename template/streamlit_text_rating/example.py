@@ -1,5 +1,5 @@
-from __init__ import streamlit_text_like
+from __init__ import streamlit_text_rating
 import streamlit as st
 
-r=streamlit_text_like(text='he is good',key='abc')
+r=streamlit_text_rating(text='he is good',key='abc')
 st.write(r)
