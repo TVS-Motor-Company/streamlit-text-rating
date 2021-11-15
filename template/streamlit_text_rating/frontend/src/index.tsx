@@ -1,10 +1,10 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import CustomTextLike from "./CustomTextLike"
+import CustomTextRating from "./CustomTextRating"
 
 ReactDOM.render(
   <React.StrictMode>
-    <CustomTextLike/>
+    <CustomTextRating/>
   </React.StrictMode>,
   document.getElementById("root")
 )

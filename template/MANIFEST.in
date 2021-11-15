@@ -1,1 +1,1 @@
-recursive-include streamlit_text_rating/frontend/build *
+recursive-include streamlit_text_rating/frontend/build/ *
