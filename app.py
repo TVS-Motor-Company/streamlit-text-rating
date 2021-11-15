@@ -1,6 +1,5 @@
-import streamlit as st
-from streamlit_text_rating import rate_text
+from streamlit_text_rating.st_text_rater import st_text_rater
 
 for text in ["Is this helpful?", "Do you like it?"]:
-    response = rate_text(text=text)
+    response = st_text_rater(text=text)
     # st.write(f"response --> {response}")
