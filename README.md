@@ -47,5 +47,5 @@ for text in ["Is this text helpful?", "Do you like this text?"]:
     # st.write(f"response --> {response}")
 
 ```
-
-![Streamlit Text Rating](/Users/budigam.nagaraju/tvs/streamlit-text-rating/st_text_rater.gif "Streamlit Text Rating")
+### Output
+![Streamlit Text Rating](st_text_rater.gif "Streamlit Text Rating")
