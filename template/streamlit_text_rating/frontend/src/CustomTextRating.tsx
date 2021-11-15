@@ -30,25 +30,25 @@ class streamlit_text_rating extends StreamlitComponentBase<State> {
     const text = this.props.args["text"] as string
     const color_text = this.props.args["color_text"] as string
     const color_background = this.props.args["color_background"] as string
-    const fontSize = this.props.args['font_size'] as string
-    const fontFamily = this.props.args['font_family'] as string
-    const fontWeight=this.props.args['font_weight'] as number
+    const font_size = this.props.args['font_size'] as string
+    const font_family = this.props.args['font_family'] as string
+    const font_weight=this.props.args['font_weight'] as number
 
     return (
           <div style={{display:'flex', alignItems:'center', justifyContent:'flex-start',width:'100%',margin:'0px',}}>
           <p
           style={{color:color_text,
           background:color_background,
-          fontSize:fontSize,
-          fontWeight:fontWeight,
+          fontSize:font_size,
+          fontWeight:font_weight,
           marginBottom:'0px',
-          fontFamily:fontFamily,
+          fontFamily:font_family,
           padding:'-6px',
           borderRadius:'6px',}}>
-          {text}
+          <li>{text}</li>
           </p>
             <IconButton onClick={this.onClickedLike} style={{outline:'none',paddingTop:'0px',paddingBottom:'0px'}}>
-              <ThumbUpIcon color={this.state.hasClickedLike?'primary':'disabled'}/>
+              <ThumbUpIcon color={this.state.hasClickedLike?'success':'disabled'}/>
             </IconButton>
 
             <IconButton onClick={this.onClickedDislike} style={{outline:'none',paddingTop:'0px',paddingBottom:'0px'}} >
@@ -59,8 +59,6 @@ class streamlit_text_rating extends StreamlitComponentBase<State> {
   }
 
   private onClickedLike = (): void => {
-
-
     this.setState(
         prevState => ({hasClickedLike: ! this.state.hasClickedLike}),
       () => {if (this.state.hasClickedLike) {Streamlit.setComponentValue('liked');} else {Streamlit.setComponentValue('None');}}
@@ -71,20 +69,14 @@ class streamlit_text_rating extends StreamlitComponentBase<State> {
   }
 
   private onClickedDislike = (): void => {
-
     this.setState(
         prevState => ({hasClickedDislike: ! this.state.hasClickedDislike}),
       () => {if (this.state.hasClickedDislike) {Streamlit.setComponentValue('disliked');} else {Streamlit.setComponentValue('None');}}
       );
-
        this.setState(
         prevState => ({hasClickedLike: false})
       );
-
     }
-
-
-
 }
 
 export default withStreamlitConnection(streamlit_text_rating)

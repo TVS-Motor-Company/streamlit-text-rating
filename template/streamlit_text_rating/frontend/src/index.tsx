@@ -1,6 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import CustomTextLike from "./CustomTextRating"
+import CustomTextRating from "./CustomTextRating"
 
 ReactDOM.render(
   <React.StrictMode>

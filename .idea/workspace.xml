@@ -2,17 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="832686a8-3303-4f89-85c1-9045449ead59" name="Changes" comment="cleaned up">
+      <change afterPath="$PROJECT_DIR$/template/streamlit_text_rating/st_text_rater.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/MANIFEST.in" beforeDir="false" afterPath="$PROJECT_DIR$/template/MANIFEST.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/template/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/build/lib/streamlit_text_rating/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/build/lib/streamlit_text_rating/example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/template/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/template/streamlit_text_rating.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/template/streamlit_text_rating.egg-info/SOURCES.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/template/streamlit_text_rating/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/template/streamlit_text_rating/example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/template/streamlit_text_rating/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating/frontend/src/CustomTextLike.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/streamlit_text_rating/frontend/src/CustomTextRating.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating/frontend/build/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating/frontend/build/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating/frontend/build/dislike.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating/frontend/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating/frontend/build/like-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating/frontend/build/precache-manifest.c009b940921d7b53dccf881cd5c5eff1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating/frontend/build/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating/frontend/build/static/js/2.54f0ba47.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating/frontend/build/static/js/2.54f0ba47.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating/frontend/build/static/js/2.54f0ba47.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating/frontend/build/static/js/main.12fe5547.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating/frontend/build/static/js/main.12fe5547.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating/frontend/build/static/js/runtime-main.11ec9aca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating/frontend/build/static/js/runtime-main.11ec9aca.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating/frontend/build/thumbsup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating/frontend/src/CustomTextRating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/streamlit_text_rating/frontend/src/CustomTextRating.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating/frontend/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/template/streamlit_text_rating/frontend/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/streamlit_text_rating/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/template/streamlit_text_rating/version.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,9 +68,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="832686a8-3303-4f89-85c1-9045449ead59" name="Changes" comment="" />
@@ -77,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636967447864</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="cleaned up">
+      <created>1636969346988</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1636969346988</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
