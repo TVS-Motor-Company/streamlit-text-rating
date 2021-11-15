@@ -19,12 +19,6 @@ Alternatively, you could install the latest version directly from Github:
 pip install https://github.com/TVS-Motor-Company/streamlit-text-rating/streamlit-text-rating/archive/master.zip
 ```
 
-### Using conda
-
-You can install using the conda package manager by running
-```sh
-conda install -c conda-forge streamlit-text-rating
-```
 ### From source
 
 Download the source code by cloning the repository or by pressing 'Download ZIP' on this page.
@@ -48,4 +42,4 @@ for text in ["Is this text helpful?", "Do you like this text?"]:
 
 ```
 ### Output
-![Streamlit Text Rating](st_text_rater.gif "Streamlit Text Rating")
+![Streamlit Text Rating](https://raw.githubusercontent.com/TVS-Motor-Company/streamlit-text-rating/main/st_text_rater.gif "Streamlit Text Rating")
