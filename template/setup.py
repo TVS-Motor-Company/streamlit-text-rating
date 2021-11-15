@@ -6,7 +6,7 @@ import os
 HERE = pathlib.Path(__file__).parent
 
 # The text of the README file
-README = pathlib.Path("../../README.md").read_text()
+README = pathlib.Path("../README.md").read_text()
 
 # Get the code version
 version = {}
