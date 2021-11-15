@@ -3,3 +3,10 @@ template/.DS_Store
 template/streamlit_text_rating/.DS_Store
 template/streamlit_text_rating/frontend/.DS_Store
 .DS_Store
+.idea/modules.xml
+*.iml
+*.xml
+.ipynb_checkpoints/Untitled-checkpoint.ipynb
+Untitled1.ipynb
+Untitled.ipynb
+.ipynb_checkpoints/Untitled1-checkpoint.ipynb
