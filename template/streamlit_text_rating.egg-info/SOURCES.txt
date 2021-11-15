@@ -2,6 +2,7 @@ MANIFEST.in
 setup.py
 streamlit_text_rating/__init__.py
 streamlit_text_rating/example.py
+streamlit_text_rating/version.py
 streamlit_text_rating.egg-info/PKG-INFO
 streamlit_text_rating.egg-info/SOURCES.txt
 streamlit_text_rating.egg-info/dependency_links.txt
